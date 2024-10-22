@@ -306,11 +306,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -2255,11 +2253,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -4176,11 +4172,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -6097,11 +6091,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -6505,11 +6497,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -6764,11 +6754,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -6997,11 +6985,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -7230,11 +7216,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -7382,11 +7366,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -7703,11 +7685,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -8000,11 +7980,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -8297,11 +8275,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -8865,11 +8841,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -9407,11 +9381,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -9949,11 +9921,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -11015,11 +10985,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -12055,11 +12023,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -13095,11 +13061,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -13279,11 +13243,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -13439,11 +13401,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -13599,11 +13559,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -13913,11 +13871,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -14203,11 +14159,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -14493,11 +14447,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -14879,11 +14831,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -15236,11 +15186,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -15426,11 +15374,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -15589,11 +15535,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -15907,11 +15851,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -16198,11 +16140,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -16677,11 +16617,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.
@@ -17129,11 +17067,9 @@ spec:
                         last transition.
                       type: string
                     observedGeneration:
-                      anyOf:
-                      - type: integer
-                      - type: string
                       description: Resource Generation to which the Condition refers.
-                      x-kubernetes-int-or-string: true
+                      format: int64
+                      type: integer
                     reason:
                       description: Unique, one-word, CamelCase reason for the condition's
                         last transition.

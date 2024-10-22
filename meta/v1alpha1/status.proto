@@ -75,6 +75,5 @@ message IstioCondition {
 
   // Resource Generation to which the Condition refers.
   // +optional
-  // +protoc-gen-crd:validation:XIntOrString
   int64 observed_generation = 7;
 }

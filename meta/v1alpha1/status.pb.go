@@ -141,7 +141,6 @@ type IstioCondition struct {
 	Message string `protobuf:"bytes,6,opt,name=message,proto3" json:"message,omitempty"`
 	// Resource Generation to which the Condition refers.
 	// +optional
-	// +protoc-gen-crd:validation:XIntOrString
 	ObservedGeneration int64 `protobuf:"varint,7,opt,name=observed_generation,json=observedGeneration,proto3" json:"observed_generation,omitempty"`
 }
 
